@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f7f2; /* Soft parchment color */
+    color: #2c3e50;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+.log-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Typography */
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 2.5rem;
+    color: #1a252f;
+    margin-bottom: 10px;
+}
+
+.day-badge {
+    background: #e67e22; /* Saffron tone */
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.location-meta {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+/* Stats Bar */
+.stats-bar {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+
+/* Content */
+.featured-image img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.caption {
+    font-style: italic;
+    font-size: 0.85rem;
+    text-align: center;
+    color: #95a5a6;
+    margin-top: 8px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.anubhuti {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 1.4rem;
+    border-left: 4px solid #e67e22;
+    padding-left: 20px;
+    margin: 30px 0;
+    color: #444;
+}
+
+/* Logistics */
+.logistics-box {
+    background: #fdf2e9;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+.logistics-box h3 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.logistics-box ul {
+    list-style: none;
+}
+
+/* Footer Nav */
+.log-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #e67e22;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    color: #d35400;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .stats-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .log-container {
+        padding: 20px;
+    }
+}
